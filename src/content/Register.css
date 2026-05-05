@@ -1,0 +1,55 @@
+.RegisterPage {
+  background-color: rgb(109, 161, 245);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+
+.registerPage {
+  background-color: rgb(142, 175, 231);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 550px;
+}
+
+.registerPage button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.registerPage h6 h1 {
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+h2,
+h1 {
+  width: 200px;
+  height: 30px;
+  text-align: left;
+  background-color: transparent;
+}
+.registerPage h6 {
+    text-align: center;
+    margin-top: 1px;
+    font-size: 13px;
+}
+.registerPage a {
+    color: blue;        
+    font-size: 15px;   
+    font-weight: bold;
+    text-decoration: underline;
+}

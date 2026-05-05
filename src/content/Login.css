@@ -1,0 +1,112 @@
+.bname {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+h6 {
+    text-align: left;
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.email {
+    text-align: left;
+    margin: auto;
+    width: 350px;
+}
+
+.loginPage {
+    text-align: center;
+    background-color: rgb(109, 161, 245);
+    min-height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.loginContainer {
+    background-color: rgb(142, 175, 231);
+    border: 1px solid;
+    border-color: white;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    height: 400px;
+}
+
+h1 {
+  font-size: 32px;  /* Main heading size */
+  font-weight: bold;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;  /* Sub-heading size */
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.check input[type='checkbox'] {
+    width: auto;
+    height: auto;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.check h6 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.account a {
+    text-decoration: none;
+    color: blue;
+}
+
+.account h6 {
+    margin: 0;
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    white-space: nowrap;
+
+}
