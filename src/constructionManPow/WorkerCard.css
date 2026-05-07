@@ -1,0 +1,59 @@
+
+body {
+    background-color: #f1f5f9;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.worker-list {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+.workerCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    background: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    min-width: max-content;
+}
+.workerCard h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.workerCard p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.workerCard strong {
+    font-size: 15px;
+    color: #333;
+}
+.workerCard button {
+    background: #f97316;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.workerCard {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.workerCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: #3b82f6;
+}

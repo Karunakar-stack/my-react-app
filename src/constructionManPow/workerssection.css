@@ -1,0 +1,92 @@
+section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+
+section > div:first-child {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    grid-area: 1 / 1;
+    margin: 0;
+    font-size: 32px;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+section h3 {
+    grid-area: 2 / 1;
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #4f46e5;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.view-all {
+    grid-area: 1 / 2 / 3 / 3;
+    text-decoration: none;
+    color: #4f46e5;
+    font: 600 15px sans-serif;
+}
+
+.tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #e2e8f0;
+    background: #fff;
+    color: #64748b;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.tabs button:hover {
+    border-color: #4f46e5;
+    color: #4f46e5;
+}
+.role-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.role-box {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    padding: 30px 20px;
+    border-radius: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.role-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.05);
+    border-color: #4f46e5;
+}
+.role-box div {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.role-box h3 {
+    color: #1e293b;
+    text-transform: none;
+    font: 600 18px sans-serif;
+    margin: 0;
+}
+.role-box p {
+    color: #64748b;
+    font-size: 14px;
+    margin: 6px 0 0;
+}
