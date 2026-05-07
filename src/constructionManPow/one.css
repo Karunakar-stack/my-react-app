@@ -1,79 +1,89 @@
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
 
 body {
-    background-color: #f1f5f9; 
+    background-color: rgba(241, 245, 249, 1);
     font-family: 'Inter', -apple-system, sans-serif;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 section {
-    width: 100%;      
-    max-width: 100%;   
-    margin: 40px 0;    
-    padding: 0 4%;    
+    width: 100%;
+    max-width: 100%;
+    margin: 40px 0;
+    padding: 0 4%;
 }
 
-.section-header, section > div:first-child {
+.section-header,
+section>div:first-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
 }
 
-section h1, section h2 { 
-    margin: 0; 
-    font-size: 30px; 
-    color: #1e293b; 
-    font-weight: 400; 
+section h1,
+section h2 {
+    margin: 0;
+    font-size: 30px;
+    color: rgba(30, 41, 59, 1);
+    font-weight: 400;
 }
 
-section h3, h4 { 
-    margin: 0; 
-    font-size: 13px; 
-    color: #4f46e5; 
-    text-transform: uppercase; 
-    letter-spacing: 1px; 
-    font-weight: 400; 
+section h3,
+h4 {
+    margin: 0;
+    font-size: 13px;
+    color: rgba(79, 70, 229, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 .view-all {
     text-decoration: none;
-    color: #4f46e5;
+    color: rgba(79, 70, 229, 1);
     font-weight: 400;
     font-size: 14px;
 }
 
-.tabs { 
-    display: flex; 
-    gap: 12px; 
-    margin-bottom: 35px; 
-    overflow-x: auto; 
+.tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 35px;
+    overflow-x: auto;
 }
 
 .tabs button {
     padding: 10px 22px;
     border-radius: 50px;
-    border: 1px solid #e2e8f0;
-    background: #fff;
-    color: #64748b;
+    border: 1px solid rgba(226, 232, 240, 1);
+    background: rgba(255, 255, 255, 1);
+    color: rgba(100, 116, 139, 1);
     font-weight: 400;
     cursor: pointer;
     transition: 0.2s;
     white-space: nowrap;
 }
 
-.tabs button:hover { border-color: #4f46e5; color: #4f46e5; }
+.tabs button:hover {
+    border-color: rgba(79, 70, 229, 1);
+    color: rgba(79, 70, 229, 1);
+}
 
-.role-grid, .worker-list {
+.role-grid,
+.worker-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-.role-box, .workerCard {
-    background: #fff;
-    border: 1px solid #e2e8f0;
+.role-box,
+.workerCard {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(226, 232, 240, 1);
     padding: 25px 20px;
     border-radius: 16px;
     text-align: center;
@@ -84,21 +94,38 @@ section h3, h4 {
     justify-content: space-between;
 }
 
-.role-box:hover, .workerCard:hover {
+.role-box:hover,
+.workerCard:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-    border-color: #4f46e5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    border-color: rgba(79, 70, 229, 1);
 }
 
-.role-box div { font-size: 35px; margin-bottom: 10px; }
-.role-box h3, .workerCard h2 { font-size: 18px; color: #1e293b; margin: 0; font-weight: 400; }
-.workerCard p { font-size: 14px; color: #64748b; margin: 5px 0; }
-.workerCard strong { 
-    display: block; 
-    margin: 10px 0; 
-    font-size: 18px; 
-    color: #1e293b; 
-    font-weight: 400; 
+.role-box div {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.role-box h3,
+.workerCard h2 {
+    font-size: 18px;
+    color: rgba(30, 41, 59, 1);
+    margin: 0;
+    font-weight: 400;
+}
+
+.workerCard p {
+    font-size: 14px;
+    color: rgba(100, 116, 139, 1);
+    margin: 5px 0;
+}
+
+.workerCard strong {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: rgba(30, 41, 59, 1);
+    font-weight: 400;
 }
 
 .card-top {
@@ -109,23 +136,36 @@ section h3, h4 {
     text-align: left;
 }
 
-.rk-bg, .sm-bg, .ap-bg, .pg-bg {
-    width: 42px;
-    height: 42px;
+.rk-bg,
+.sm-bg,
+.ap-bg,
+.pg-bg {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
     flex-shrink: 0;
 }
 
-.rk-bg { background-color: #b91c1c; }
-.sm-bg { background-color: #1e3a8a; }
-.ap-bg { background-color: #15803d; }
-.pg-bg { background-color: #6b21a8; }
+.rk-bg {
+    background-color: rgba(185, 28, 28, 1);
+}
+
+.sm-bg {
+    background-color: rgba(30, 58, 138, 1);
+}
+
+.ap-bg {
+    background-color: rgba(21, 128, 61, 1);
+}
+
+.pg-bg {
+    background-color: rgba(107, 33, 168, 1);
+}
 
 .workerCard {
     text-align: left;
@@ -133,11 +173,11 @@ section h3, h4 {
 }
 
 .jobCard {
-    background: white;
+    background: rgba(255, 255, 255, 1);
     padding: 24px;
     margin-bottom: 15px;
     border-radius: 12px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid rgba(226, 232, 240, 1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: 0.2s;
     width: 100%;
@@ -145,7 +185,7 @@ section h3, h4 {
 
 .jobCard:hover {
     transform: translateY(-3px);
-    border-color: #3b82f6;
+    border-color: rgba(59, 130, 246, 1);
 }
 
 .jobCard h2 {
@@ -158,7 +198,9 @@ section h3, h4 {
     font-weight: 400;
 }
 
-.job-details-row, .skills-row, .footer-row {
+.job-details-row,
+.skills-row,
+.footer-row {
     display: flex;
     gap: 20px;
     padding: 0;
@@ -169,21 +211,21 @@ section h3, h4 {
 
 .footer-row {
     justify-content: space-between;
-    border-top: 1px solid #f1f5f9;
+    border-top: 1px solid rgba(241, 245, 249, 1);
     padding-top: 15px;
 }
 
 .skills-row li {
-    background: #f1f5f9;
+    background: rgba(241, 245, 249, 1);
     padding: 5px 12px;
     border-radius: 6px;
     font-size: 13px;
-    color: #475569;
+    color: rgba(71, 85, 105, 1);
 }
 
 .urgent-badge {
-    background-color: #fef08a;
-    color: #92400e;
+    background-color: #fbb401;
+    color: rgb(0, 0, 0);
     padding: 2px 8px;
     border-radius: 4px;
     font-weight: 400;
@@ -192,8 +234,8 @@ section h3, h4 {
 }
 
 button {
-    background: #0f172a;
-    color: white;
+    background: rgba(15, 23, 42, 1);
+    color: rgba(255, 255, 255, 1);
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
@@ -203,21 +245,11 @@ button {
 }
 
 .workerCard button {
-    background: #f97316;
+    background: rgba(249, 115, 22, 1);
     width: 100%;
     margin-top: 10px;
 }
 
-button:hover { opacity: 0.9; }
-
-@media (max-width: 1024px) {
-    .role-grid, .worker-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .role-grid, .worker-list {
-        grid-template-columns: 1fr;
-    }
+button:hover {
+    opacity: 0.9;
 }

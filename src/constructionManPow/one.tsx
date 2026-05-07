@@ -25,7 +25,7 @@ function WorkforcePlatform() {
                         <h3>Who it's for</h3><br />
                         <h2>Every role, one platform</h2>
                     </div>
-                    <a href="#" className="view-all">View all →</a>
+                    <a href="" className="view-all">View all →</a>
                 </div>
                 <div className="tabs">
                     <button>All Workers</button>
@@ -51,7 +51,7 @@ function WorkforcePlatform() {
                         <h3>Browse Workforce</h3><br />
                         <h2>Available Workers</h2>
                     </div>
-                    <a href="#" className="view-all">View all →</a>
+                    <a href="" className="view-all">View all →</a>
                 </div>
                 <div className="worker-list">
                     <Card name="Rajan Kumar" icon="RK" iconBg="rk-bg" role="Senior Mason" status="Available" exp="12 yrs exp" loc="Mumbai" rate="₹850/day" btn="Connect" />
@@ -66,7 +66,7 @@ function WorkforcePlatform() {
                         <h3>Live Requirements</h3><br />
                         <h2>Work Available Now</h2>
                     </div>
-                    <a href="#" className="view-all">View all →</a>
+                    <a href="" className="view-all">View all →</a>
                 </div>
                 <article className="jobCard">
                     <h2>5 Masons needed — Residential Building (G+4)</h2>
